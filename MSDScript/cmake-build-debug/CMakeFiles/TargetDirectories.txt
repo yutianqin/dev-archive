@@ -1,0 +1,4 @@
+/Users/yutianqin/MSDScript/MSDScript/cmake-build-debug/CMakeFiles/msd_cs6015_project.dir
+/Users/yutianqin/MSDScript/MSDScript/cmake-build-debug/CMakeFiles/test_msdscript.dir
+/Users/yutianqin/MSDScript/MSDScript/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yutianqin/MSDScript/MSDScript/cmake-build-debug/CMakeFiles/rebuild_cache.dir

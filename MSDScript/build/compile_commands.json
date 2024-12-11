@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/main.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/main.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/main.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/Test.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/Test.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/Test.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/subTest.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/subTest.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/subTest.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/cmdline.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/cmdline.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/cmdline.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/Expr.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/Expr.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/Expr.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/parse_tests.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/parse_tests.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/parse_tests.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/parse.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/parse.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/parse.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/val.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/val.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/val.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/msd_cs6015_project.dir/Env.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/Env.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/Env.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/test_msdscript.dir/exec.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/exec.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/exec.cpp"
+},
+{
+  "directory": "/Users/yutianqin/MSDScript/MSDScript/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++17 -o CMakeFiles/test_msdscript.dir/test_msdscript.cpp.o -c /Users/yutianqin/MSDScript/MSDScript/test_msdscript.cpp",
+  "file": "/Users/yutianqin/MSDScript/MSDScript/test_msdscript.cpp"
+}
+]

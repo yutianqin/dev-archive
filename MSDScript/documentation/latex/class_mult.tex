@@ -1,0 +1,182 @@
+\hypertarget{class_mult}{}\doxysection{MultExpr Class Reference}
+\label{class_mult}\index{MultExpr@{MultExpr}}
+
+
+{\ttfamily \#include $<$Expr.\+hpp$>$}
+
+Inheritance diagram for MultExpr\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mult}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mult_ace9998f1dc023823e04c15bb359ea79c}{MultExpr}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$\mbox{\hyperlink{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}{lhs}}, \mbox{\hyperlink{class_expr}{Expr}} $\ast$\mbox{\hyperlink{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}{rhs}})
+\item 
+bool \mbox{\hyperlink{class_mult_a69f15f9dae445a7f4549c031c0f16e81}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$expr) override
+\item 
+int \mbox{\hyperlink{class_mult_a0ae0098f4a1adaef9686983f263ab35a}{interp}} () override
+\item 
+bool \mbox{\hyperlink{class_mult_a214c39d71da10d21bdbd7fbc70032357}{has\+\_\+variable}} () override
+\item 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_mult_add649000217c6decf3c15e1651efc184}{subst}} (std\+::string, \mbox{\hyperlink{class_expr}{Expr}} $\ast$expr) override
+\item 
+void \mbox{\hyperlink{class_mult_a2a7c7651d37b9ea2e7ea4d81a39923fc}{print}} (std\+::ostream \&os) override
+\item 
+void \mbox{\hyperlink{class_mult_a4fdbb2eb6f9d8d2a12617da40fa33821}{pretty\+\_\+print\+\_\+at}} (std\+::ostream \&os, \mbox{\hyperlink{_expr_8hpp_a9e5fdf365cd8dc7be4d972daf07f8bdf}{precedence\+\_\+t}} prec) override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_expr}{Expr}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_expr_ab5d65cde79dd78c2e06b2d5a0f19c602}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} $\ast$expr)=0
+\item 
+virtual int \mbox{\hyperlink{class_expr_aeba8585d8225419d49166371306542c1}{interp}} ()=0
+\item 
+virtual bool \mbox{\hyperlink{class_expr_a92dc26078993a4b9721ea732274a435c}{has\+\_\+variable}} ()=0
+\item 
+virtual \mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_expr_aa634df66e06bc11371f2926b8410ee74}{subst}} (std\+::string str, \mbox{\hyperlink{class_expr}{Expr}} $\ast$expr)=0
+\item 
+virtual void \mbox{\hyperlink{class_expr_a487924970752b53d928754999f6213a3}{print}} (std\+::ostream \&os)=0
+\item 
+std\+::string \mbox{\hyperlink{class_expr_abe130f37bd185ec13c5113de16fc7bf7}{to\+\_\+string}} ()
+\item 
+void \mbox{\hyperlink{class_expr_a44e12f38e66f311a7f428fe761aad2ea}{pretty\+\_\+print}} (std\+::ostream \&os, \mbox{\hyperlink{_expr_8hpp_a9e5fdf365cd8dc7be4d972daf07f8bdf}{precedence\+\_\+t}} prec)
+\item 
+std\+::string \mbox{\hyperlink{class_expr_ab74e8e4defc1c24dcfb88b185ba0805b}{to\+\_\+string\+\_\+pretty}} ()
+\item 
+virtual void \mbox{\hyperlink{class_expr_ab76241511c943fcb050299db4a29f725}{pretty\+\_\+print\+\_\+at}} (std\+::ostream \&os, \mbox{\hyperlink{_expr_8hpp_a9e5fdf365cd8dc7be4d972daf07f8bdf}{precedence\+\_\+t}})=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}{lhs}}
+\begin{DoxyCompactList}\small\item\em Left hand side. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_expr}{Expr}} $\ast$ \mbox{\hyperlink{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}{rhs}}
+\begin{DoxyCompactList}\small\item\em Right hand side. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mult_ace9998f1dc023823e04c15bb359ea79c}\label{class_mult_ace9998f1dc023823e04c15bb359ea79c}} 
+\index{MultExpr@{MultExpr}!MultExpr@{MultExpr}}
+\index{MultExpr@{MultExpr}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{MultExpr()}{MultExpr()}}
+{\footnotesize\ttfamily MultExpr\+::\+MultExpr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{lhs,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{rhs }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mult_a69f15f9dae445a7f4549c031c0f16e81}\label{class_mult_a69f15f9dae445a7f4549c031c0f16e81}} 
+\index{MultExpr@{MultExpr}!equals@{equals}}
+\index{equals@{equals}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily bool MultExpr\+::equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{expr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Check whether the parameter equals to the \mbox{\hyperlink{class_mult}{MultExpr}} object
+\begin{DoxyParams}{Parameters}
+{\em expr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr_ab5d65cde79dd78c2e06b2d5a0f19c602}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_a214c39d71da10d21bdbd7fbc70032357}\label{class_mult_a214c39d71da10d21bdbd7fbc70032357}} 
+\index{MultExpr@{MultExpr}!has\_variable@{has\_variable}}
+\index{has\_variable@{has\_variable}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{has\_variable()}{has\_variable()}}
+{\footnotesize\ttfamily bool MultExpr\+::has\+\_\+variable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+The result should be true if the expression is a variable or contains a variable, false otherwise. \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr_a92dc26078993a4b9721ea732274a435c}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_a0ae0098f4a1adaef9686983f263ab35a}\label{class_mult_a0ae0098f4a1adaef9686983f263ab35a}} 
+\index{MultExpr@{MultExpr}!interp@{interp}}
+\index{interp@{interp}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{interp()}{interp()}}
+{\footnotesize\ttfamily int MultExpr\+::interp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Interpret this \mbox{\hyperlink{class_add}{AddExpr}} object -\/\texorpdfstring{$>$}{>} execute the calculation that \begin{DoxyReturn}{Returns}
+product of lhs and rhs 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr_aeba8585d8225419d49166371306542c1}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_a4fdbb2eb6f9d8d2a12617da40fa33821}\label{class_mult_a4fdbb2eb6f9d8d2a12617da40fa33821}} 
+\index{MultExpr@{MultExpr}!pretty\_print\_at@{pretty\_print\_at}}
+\index{pretty\_print\_at@{pretty\_print\_at}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{pretty\_print\_at()}{pretty\_print\_at()}}
+{\footnotesize\ttfamily void MultExpr\+::pretty\+\_\+print\+\_\+at (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{\mbox{\hyperlink{_expr_8hpp_a9e5fdf365cd8dc7be4d972daf07f8bdf}{precedence\+\_\+t}}}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_expr_ab76241511c943fcb050299db4a29f725}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_a2a7c7651d37b9ea2e7ea4d81a39923fc}\label{class_mult_a2a7c7651d37b9ea2e7ea4d81a39923fc}} 
+\index{MultExpr@{MultExpr}!print@{print}}
+\index{print@{print}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void MultExpr\+::print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_expr_a487924970752b53d928754999f6213a3}{Expr}}.
+
+\mbox{\Hypertarget{class_mult_add649000217c6decf3c15e1651efc184}\label{class_mult_add649000217c6decf3c15e1651efc184}} 
+\index{MultExpr@{MultExpr}!subst@{subst}}
+\index{subst@{subst}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{subst()}{subst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}} $\ast$ MultExpr\+::subst (\begin{DoxyParamCaption}\item[{std\+::string}]{str,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} $\ast$}]{expr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Everywhere that the expression (whose subst method is called) contains a variable matching the string, the result Expr$\ast$ should have the given replacement, instead. 
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+{\em expr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Expr$\ast$ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr_aa634df66e06bc11371f2926b8410ee74}{Expr}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}\label{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}} 
+\index{MultExpr@{MultExpr}!lhs@{lhs}}
+\index{lhs@{lhs}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{lhs}{lhs}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}}$\ast$ MultExpr\+::lhs}
+
+
+
+Left hand side. 
+
+\mbox{\Hypertarget{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}\label{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}} 
+\index{MultExpr@{MultExpr}!rhs@{rhs}}
+\index{rhs@{rhs}!MultExpr@{MultExpr}}
+\doxysubsubsection{\texorpdfstring{rhs}{rhs}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}}$\ast$ MultExpr\+::rhs}
+
+
+
+Right hand side. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/yutianqin/\+MSDScript/msd\+\_\+cs6015\+\_\+project/\mbox{\hyperlink{_expr_8hpp}{Expr.\+hpp}}\item 
+/\+Users/yutianqin/\+MSDScript/msd\+\_\+cs6015\+\_\+project/\mbox{\hyperlink{_expr_8cpp}{Expr.\+cpp}}\end{DoxyCompactItemize}

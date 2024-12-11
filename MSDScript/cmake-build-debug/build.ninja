@@ -1,0 +1,224 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: msd_cs6015_project
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yutianqin/MSDScript/MSDScript/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target msd_cs6015_project
+
+
+#############################################
+# Order-only phony target for msd_cs6015_project
+
+build cmake_object_order_depends_target_msd_cs6015_project: phony || CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/main.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/main.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/Test.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/Test.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/Test.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/subTest.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/subTest.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/subTest.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/cmdline.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/cmdline.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/cmdline.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/Expr.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/Expr.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/Expr.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/parse_tests.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/parse_tests.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/parse_tests.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/parse.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/parse.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/parse.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/val.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/val.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/val.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+build CMakeFiles/msd_cs6015_project.dir/Env.cpp.o: CXX_COMPILER__msd_cs6015_project_Debug /Users/yutianqin/MSDScript/MSDScript/Env.cpp || cmake_object_order_depends_target_msd_cs6015_project
+  DEP_FILE = CMakeFiles/msd_cs6015_project.dir/Env.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/msd_cs6015_project.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target msd_cs6015_project
+
+
+#############################################
+# Link the executable msd_cs6015_project
+
+build msd_cs6015_project: CXX_EXECUTABLE_LINKER__msd_cs6015_project_Debug CMakeFiles/msd_cs6015_project.dir/main.cpp.o CMakeFiles/msd_cs6015_project.dir/Test.cpp.o CMakeFiles/msd_cs6015_project.dir/subTest.cpp.o CMakeFiles/msd_cs6015_project.dir/cmdline.cpp.o CMakeFiles/msd_cs6015_project.dir/Expr.cpp.o CMakeFiles/msd_cs6015_project.dir/parse_tests.cpp.o CMakeFiles/msd_cs6015_project.dir/parse.cpp.o CMakeFiles/msd_cs6015_project.dir/val.cpp.o CMakeFiles/msd_cs6015_project.dir/Env.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/msd_cs6015_project.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = msd_cs6015_project
+  TARGET_PDB = msd_cs6015_project.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_msdscript
+
+
+#############################################
+# Order-only phony target for test_msdscript
+
+build cmake_object_order_depends_target_test_msdscript: phony || CMakeFiles/test_msdscript.dir
+
+build CMakeFiles/test_msdscript.dir/exec.cpp.o: CXX_COMPILER__test_msdscript_Debug /Users/yutianqin/MSDScript/MSDScript/exec.cpp || cmake_object_order_depends_target_test_msdscript
+  DEP_FILE = CMakeFiles/test_msdscript.dir/exec.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_msdscript.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_msdscript.dir
+
+build CMakeFiles/test_msdscript.dir/test_msdscript.cpp.o: CXX_COMPILER__test_msdscript_Debug /Users/yutianqin/MSDScript/MSDScript/test_msdscript.cpp || cmake_object_order_depends_target_test_msdscript
+  DEP_FILE = CMakeFiles/test_msdscript.dir/test_msdscript.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_msdscript.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_msdscript.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_msdscript
+
+
+#############################################
+# Link the executable test_msdscript
+
+build test_msdscript: CXX_EXECUTABLE_LINKER__test_msdscript_Debug CMakeFiles/test_msdscript.dir/exec.cpp.o CMakeFiles/test_msdscript.dir/test_msdscript.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/test_msdscript.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_msdscript
+  TARGET_PDB = test_msdscript.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yutianqin/MSDScript/MSDScript/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yutianqin/MSDScript/MSDScript/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yutianqin/MSDScript/MSDScript -B/Users/yutianqin/MSDScript/MSDScript/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yutianqin/MSDScript/MSDScript/cmake-build-debug
+
+build all: phony msd_cs6015_project test_msdscript
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/yutianqin/MSDScript/MSDScript/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/yutianqin/MSDScript/MSDScript/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

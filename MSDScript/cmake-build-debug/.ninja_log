@@ -1,0 +1,12 @@
+# ninja log v5
+8	294	1681232059322719165	CMakeFiles/msd_cs6015_project.dir/Env.cpp.o	601751fa1270ae67
+0	52	1681232179710915474	build.ninja	d5d645ab6343f9cd
+658	955	1680712467654862755	CMakeFiles/msd_cs6015_project.dir/val.cpp.o	3d6afe6623ecd755
+5	982	1680712467680745431	CMakeFiles/msd_cs6015_project.dir/subTest.cpp.o	888698f1120a8224
+571	944	1680712467643784560	CMakeFiles/msd_cs6015_project.dir/parse.cpp.o	7f0491cf81938a42
+6	2404	1680712469098142432	CMakeFiles/msd_cs6015_project.dir/cmdline.cpp.o	fd2942993523a5f8
+294	375	1681232059405177139	msd_cs6015_project	42577e6a0bfe00b8
+6	917	1680712467614621471	CMakeFiles/msd_cs6015_project.dir/parse_tests.cpp.o	ced1643528d1d12a
+6	658	1680712467357238039	CMakeFiles/msd_cs6015_project.dir/Expr.cpp.o	b414ff9270cf1ba4
+5	1014	1680712467712801058	CMakeFiles/msd_cs6015_project.dir/Test.cpp.o	c8edc62676a9f56c
+4	570	1680712467268510190	CMakeFiles/msd_cs6015_project.dir/main.cpp.o	be8db52d79b019ce
